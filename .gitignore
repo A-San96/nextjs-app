@@ -20,4 +20,7 @@ bower_components
 psd
 thumb
 sketch
+
+### VS Code##
+.vscode/
 # End of https://www.toptal.com/developers/gitignore/api/nextjs
