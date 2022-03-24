@@ -9,7 +9,9 @@ function Header({theme}) {
                         <img src="/images/SVCCLogo.png" alt="SVCC Home Page" />
                     </div>
                     <div className="light">
-                        <h4 className="header-title">
+                        <h4 className={
+                        theme === "light" ? "header-title" : "header-title text-info"
+                    }>
                             Silicon Valley Code Camp
                         </h4>
                     </div>
