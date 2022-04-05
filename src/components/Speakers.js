@@ -1,9 +1,11 @@
 import SpeakersToolbar from './SpeakersToolbar';
 import SpeakersList from './SpeakersList';
-import { useState } from "react";
+import { useContext, useState } from "react";
+import {ThemeContext} from "./Layout";
 
-function Speakers({ theme, setTheme }) {
+function Speakers() {
     const [showSessions, setShowSessions] = useState(true);
+    const { setTheme, theme } = useContext(ThemeContext)
 
     return (
         <>
